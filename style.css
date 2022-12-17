@@ -19,15 +19,10 @@ h3 {
 /* Header */
 header {
   text-align: center;
-  flex-direction: row;
-    flex-basis: fit-content;
-    display: inline-flex;
-    align-items: center;
-    margin-left: 25%;
+  margin: auto;
+  width: 600px;
+  padding: 10px 0px;
 }
-
-      
-
 
 /* Containers */
 div {
@@ -65,8 +60,7 @@ nav a {
 
 /* Images */
 img {
-  width: 100%;
-  max-width: 200px;
+  width: 190px;
   height: auto;
 }
 
@@ -75,6 +69,9 @@ img {
   border-radius: 50%;
 }
 
+.description-font {
+  font-size: 14px;
+}
 /* Footer */
 footer {
   text-align: center;
@@ -83,4 +80,11 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.group {
+  display: flex;
+}
+.item {
+  margin: auto;
 }
